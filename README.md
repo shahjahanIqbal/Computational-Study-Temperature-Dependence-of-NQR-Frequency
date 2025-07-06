@@ -29,9 +29,9 @@ Using a Python-based simulation, the code automates:
 - Extrapolate to find 𝜈₀ at T = 0.
 - Apply Bayer’s theory:
   
-  \[
+  $$
   \frac{𝜈_T}{𝜈_0} = 1 - \frac{3h}{8\pi^2} \left( \frac{1}{A_x f_x \left( e^{\frac{hf_x}{kT}} - 1 \right)} + \frac{1}{A_y f_y \left( e^{\frac{hf_y}{kT}} - 1 \right)} \right)
-  \]
+  $$
 
 - Iterate over a range of fx and fy values to minimize the error between theoretical and observed values at each temperature.
 - Output results with error analysis and comparison to reference data.
