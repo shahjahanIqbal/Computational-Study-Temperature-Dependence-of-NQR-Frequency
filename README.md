@@ -40,7 +40,7 @@ Using a Python-based simulation, the code automates:
 
 ## Requirements
 
-- Python 3.7+
+- Python 3
 - Libraries:
   - `numpy`
   - `matplotlib`
